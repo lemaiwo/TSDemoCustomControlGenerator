@@ -1,0 +1,24 @@
+<mvc:View
+	controllerName="be.wl.TSDemoCustomControlGenerator.controller.Main"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+    xmlns:cust="be.wl.TSDemoCustomControlGenerator.control">
+
+<Page id="page" title="{i18n>title}">
+        <content>
+            <cust:BusinessCard
+                src1="https://blogs.sap.com/wp-content/uploads/2018/02/file.png"
+                prop1="SAPUI5"
+                prop2="Front-end"
+                href1=""
+                href2=""
+                href3=""
+                href4=""
+                href5=""
+                href6="http://ui5.sap.com">
+            </cust:BusinessCard>
+        </content>
+    </Page>
+
+</mvc:View>
